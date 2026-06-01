@@ -106,6 +106,9 @@ void Login::update(const OBSERVABLE_COMMAND &command, std::vector<std::string> &
     case OBSERVABLE_COMMAND::LOGIN_SUCCESS:
         loginSuccess();
         break;
+
+    default:
+        break;
     }
 }
 
